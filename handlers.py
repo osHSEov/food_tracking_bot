@@ -89,7 +89,7 @@ def register_handlers(bot):
         bot.send_message(user_id, f"🍽️ *Рецепт:*\n\n{recipe_text}", parse_mode='Markdown', reply_markup=markup)
 
     def call_gigachat(prompt):
-        my_secret_key = 'MjlkMmMzZDUtNGRmYS00NzdhLTkzN2QtNzRlNDA5YWJlMTZiOmU3MzAzMGE3LTRiZTMtNGE4YS04NjRhLTM5OTAyODFiNmNjMQ=='
+        my_secret_key = 'YOUR_API_KEY'
         giga = GigaChat(
         credentials=my_secret_key,
         verify_ssl_certs=False
